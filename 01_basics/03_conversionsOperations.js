@@ -55,5 +55,25 @@ first one is string then others will be treated as
 string also and if the string is at the end then the starting 
 operations will be performed */ 
 
+console.log(+true);//1
+console.log(+false);//0
+console.log(+null);//0
+console.log(+undefined);//NaN
+console.log(+NaN);//NaN
+console.log(+"");//0
+
+let num1 ,num2 ,num3
+
+num1=num2=num3 = 2+2
+
+let gameCounter=100
+gameCounter++
+++gameCounter
+console.log(gameCounter);
+
+
+
+
+
 
 
